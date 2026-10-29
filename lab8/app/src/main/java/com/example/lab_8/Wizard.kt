@@ -1,3 +1,4 @@
+
 package com.example.lab_8
 
 class Wizard(val name: String, var mana: Int, var spellPower: Int) {
@@ -19,5 +20,8 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
                 return 0 // invalid spell
             }
         }
+    }
+
+    fun restoreMana(amount: Int) {
     }
 }
